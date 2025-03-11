@@ -9,7 +9,7 @@ Summary:	Annotate AST trees with source code positions
 Summary(pl.UTF-8):	Oznaczanie drzew AST lokalizacją w kodzie źródłowym
 Name:		python-asttokens
 Version:	2.4.1
-Release:	2
+Release:	3
 License:	Apache v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/asttokens/
