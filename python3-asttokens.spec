@@ -6,20 +6,20 @@
 Summary:	Annotate AST trees with source code positions
 Summary(pl.UTF-8):	Oznaczanie drzew AST lokalizacją w kodzie źródłowym
 Name:		python3-asttokens
-Version:	3.0.0
+Version:	3.0.1
 Release:	1
 License:	Apache v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/asttokens/
 Source0:	https://files.pythonhosted.org/packages/source/a/asttokens/asttokens-%{version}.tar.gz
-# Source0-md5:	7d99c4c80190c3ba64839138ea827970
+# Source0-md5:	50670141dde921f807d8257be4a5df9c
 URL:		https://pypi.org/project/asttokens/
 BuildRequires:	python3-modules >= 1:3.8
 BuildRequires:	python3-setuptools >= 1:44
 BuildRequires:	python3-setuptools_scm >= 3.4.3
 %if %{with tests}
 BuildRequires:	python3-astroid >= 2
-BuildRequires:	python3-astroid < 4
+BuildRequires:	python3-astroid < 5
 BuildRequires:	python3-pytest
 %endif
 BuildRequires:	rpm-pythonprov
